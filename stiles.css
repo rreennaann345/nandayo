@@ -1,0 +1,64 @@
+ Body {
+   background: rgb(151, 65, 231);
+   color: white;
+   margin: 20px;
+   font-family: "Chakra Petch", sans-serif;
+ }
+
+
+ header {
+   border-bottom: solid 1px white;
+   padding: 20px;
+   font-size: 32px;
+   color: white;
+ }
+
+ section {
+   background: #5e0d7a;
+   
+  padding-top: 60px;
+  padding-bottom: 75px;
+  display: flex;
+  justify-content: center;
+ }
+
+ .chamada_texto {
+  margin-right: 5%;
+ }
+
+h1 {
+  font-size: 37px;
+}
+
+p {
+  font-size: 17px;
+}
+
+img {
+  height: 250px;
+}
+
+.videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 17px;
+
+}
+
+.escolha {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.escolha img {
+  opacity: 0.5;
+}
+
+.escolha img:hover {
+  opacity: 1.0;
+  border: 2px solid rgb(4, 94, 4);
+}
+
+.escolha h2 {
+  color: white;
+}
